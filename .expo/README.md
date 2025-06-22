@@ -1,15 +1,23 @@
-> Why do I have a folder named ".expo" in my project?
+# 🪙 Crypto Pulse
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+A React Native app to track top cryptocurrencies with:
 
-> What do the files contain?
+- 📈 Live price updates
+- 📊 Mini charts
+- 🤖 Chatbot for crypto queries
+- 🌗 Dark/Light theme toggle
+- 🔍 Search functionality
+- 💬 Bot memory with saved chats
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
+> Built with Expo, Reanimated, and react-native-svg-charts
 
-> Should I commit the ".expo" folder?
+---
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+## 🚀 Getting Started
 
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+```bash
+git clone https://github.com/titasgarai/crypto-pulse.git
+cd crypto-pulse
+npm install
+npx expo start
+
